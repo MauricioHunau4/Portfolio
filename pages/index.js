@@ -3,31 +3,36 @@ import {
   Box,
   Heading,
   Button,
-  Text
+  Text,
+  Image
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import { SlSocialInstagram } from 'react-icons/sl'
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
 import { SiHackerrank } from 'react-icons/si'
-import Image from 'next/image'
+
 
 const Home = () => {
   const profile = '/Mauricio.jpg'
   return (<Container>
     <Box display={{ md: 'flex' }} flexDirection='row' alignItems='center' mt={9}>
-      <Image
-        mt={2}
-        borderColor='whiteAlpha.800'
-        borderWidth={2}
-        borderRadius='50%'
-        borderStyle='solid'
-        maxWidth='100p'
-        display='inline-block'
-        src={profile}
-        alt='Profile picture'
-        width={90}
-        height={90}
-      />
+      <Box css={{ borderRadius: !'50%' }}
+      >
+        <Image
+          borderRadius='50%'
+          mt={2}
+          borderColor='whiteAlpha.800'
+          borderWidth={2}
+
+          borderStyle='solid'
+          maxWidth='100p'
+          display='inline-block'
+          src={profile}
+          alt='Profile picture'
+          width={90}
+          height={90}
+        />
+      </Box>
       <Box flexGrow={1} align='right'>
         <Heading as='h2' variant='page-title' css={{ fontFamily: "'Inter', sans-serif;" }} >
           Mauricio Hunau
