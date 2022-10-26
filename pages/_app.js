@@ -1,5 +1,5 @@
 import { Box, ChakraProvider, Container } from '@chakra-ui/react'
-import Layout from '../components/Layouts/main'
+import Layout from '../components/layouts/main'
 import theme from '../lib/theme'
 import Fonts from '../components/fonts'
 import Void from '../public/images/void.svg'
