@@ -11,6 +11,10 @@ import typescript from '../public/images/technologies/typescript.png'
 import python from '../public/images/technologies/Python.png'
 import go from '../public/images/technologies/Go.png'
 import git from '../public/images/technologies/git.png'
+import mysql from '../public/images/technologies/MySQL.png'
+import postgresql from '../public/images/technologies/Postgresql.png'
+import figma from '../public/images/technologies/figma.png'
+import docker from '../public/images/technologies/docker.png'
 import album from '../public/images/projects/thealbum.png'
 import filmview from '../public/images/projects/filmview.png'
 import calculator from '../public/images/projects/Captura.png'
@@ -18,17 +22,8 @@ import wheather from '../public/images/projects/Capturaweather.png'
 import schoolui from '../public/images/projects/schoolui.jpg'
 import apod from '../public/images/projects/Apod.jpg'
 
-export const technologiesForMap = [
+export const frontEnd = [
     {
-        photo: html,
-        title: 'HTML',
-    }, {
-        photo: css,
-        title: 'CSS',
-    }, {
-        photo: js,
-        title: 'JavaScript',
-    }, {
         photo: react,
         title: 'React',
     }, {
@@ -43,9 +38,32 @@ export const technologiesForMap = [
     }, {
         photo: material,
         title: 'Material UI',
-    }, {
+    },
+]
+
+export const backEnd = [
+    {
         photo: node,
         title: 'Node.js',
+    }, {
+        photo: mysql,
+        title: 'MySQL',
+    }, {
+        photo: postgresql,
+        title: 'PostgreSQL',
+    }
+]
+
+export const languages = [
+    {
+        photo: html,
+        title: 'HTML',
+    }, {
+        photo: css,
+        title: 'CSS',
+    }, {
+        photo: js,
+        title: 'JavaScript',
     }, {
         photo: typescript,
         title: 'TypeScript',
@@ -55,9 +73,19 @@ export const technologiesForMap = [
     }, {
         photo: go,
         title: 'Go',
-    }, {
+    }
+]
+
+export const otherTools = [
+    {
         photo: git,
         title: 'Git',
+    }, {
+        photo: figma,
+        title: 'Figma',
+    }, {
+        photo: docker,
+        title: 'Docker',
     }
 ]
 
