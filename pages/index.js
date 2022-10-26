@@ -2,7 +2,6 @@ import {
   Container,
   Box,
   Heading,
-  Image,
   Button,
   Text
 } from '@chakra-ui/react'
@@ -10,6 +9,7 @@ import Section from '../components/section'
 import { SlSocialInstagram } from 'react-icons/sl'
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
 import { SiHackerrank } from 'react-icons/si'
+import Image from 'next/image'
 
 const Home = () => {
   const profile = '/Mauricio.jpg'
