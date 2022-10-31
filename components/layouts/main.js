@@ -8,7 +8,7 @@ const Main = ({ children, router }) => {
             <Head>
                 <meta name='viewport' content='width=device-width, initial-scale=1' />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-                <meta name="description" content="Mauricio's homepage" />
+                <meta name="description" content="Mauricio&apos;s homepage" />
                 <meta name="author" content="Mauricio Hunau" />
                 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
                 <link rel="icon" type="image/icon" href="./MHIcon.png" />
