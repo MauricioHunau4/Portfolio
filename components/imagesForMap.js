@@ -16,6 +16,8 @@ import postgresql from '../public/images/technologies/Postgresql.png'
 import figma from '../public/images/technologies/figma.png'
 import docker from '../public/images/technologies/docker.png'
 import vue from '../public/images/technologies/Vue.png'
+import vuetify from '../public/images/technologies/vuetify.png'
+import element from '../public/images/technologies/elementPlus.png'
 import album from '../public/images/projects/thealbum.png'
 import filmview from '../public/images/projects/filmview.png'
 import calculator from '../public/images/projects/Captura.png'
@@ -41,6 +43,12 @@ export const frontEnd = [
     }, {
         photo: material,
         title: 'Material UI',
+    }, {
+        photo: vuetify,
+        title: 'Vuetify'
+    }, {
+        photo: element,
+        title: 'Element Plus'
     }
 ]
 
