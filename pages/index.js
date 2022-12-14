@@ -57,13 +57,17 @@ const Home = () => {
           <p><strong>2019 -</strong></p>
           <p>Studied on my own and doing projects since</p>
         </Box>
+        <Box display='flex' gap={2}>
+          <p><strong>2022 -</strong></p>
+          <p>Full Stack developer in Sistemas Lenox</p>
+        </Box>
       </Box>
       <Text fontSize='3xl' mt={5} fontFamily="'Inter', sans-serif;" align='center' width='100%' borderBottom='1px solid grey'>
         About
       </Text>
       <Box mt={4} >
         <Text css={{ textIndent: '30px' }}>
-          I&apos;m a full stack web developer in Argentina with passion for developing web apps and learnging about new technologies. I love solving puzzles and problems with code and to come up with new ideas to craft and create. My goals are to become a experience full stack developer and learning new technologies. When I&apos;m not in the computer I go for a jog, 7km to stay healthy.
+          I&apos;m a full stack web developer in Argentina with passion for developing web apps and learnging about new technologies. I love solving puzzles and problems with code and to come up with new ideas to craft and create. My goals are to become a experience full stack developer and learning new technologies. When I&apos;m not in the computer I go for a jog to stay healthy.
         </Text>
       </Box>
       <Text fontSize='3xl' mt={5} fontFamily="'Inter', sans-serif;" align='center' borderBottom='1px solid grey' width='100%'>

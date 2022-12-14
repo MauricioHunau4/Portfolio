@@ -1,4 +1,4 @@
-import { Box, Button, IconButton, LinkBox, LinkOverlay, Text } from "@chakra-ui/react"
+import { Box, IconButton, Text } from "@chakra-ui/react"
 import { Global } from "@emotion/react"
 import Image from "next/image"
 import Link from "next/link"

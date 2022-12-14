@@ -15,13 +15,13 @@ import mysql from '../public/images/technologies/MySQL.png'
 import postgresql from '../public/images/technologies/Postgresql.png'
 import figma from '../public/images/technologies/figma.png'
 import docker from '../public/images/technologies/docker.png'
+import vue from '../public/images/technologies/Vue.png'
 import album from '../public/images/projects/thealbum.png'
 import filmview from '../public/images/projects/filmview.png'
 import calculator from '../public/images/projects/Captura.png'
 import wheather from '../public/images/projects/Capturaweather.png'
 import schoolui from '../public/images/projects/schoolui.jpg'
 import apod from '../public/images/projects/Apod.jpg'
-
 export const frontEnd = [
     {
         photo: react,
@@ -33,12 +33,15 @@ export const frontEnd = [
         photo: next,
         title: 'Next.js',
     }, {
+        photo: vue,
+        title: 'Vue.js'
+    }, {
         photo: chakra,
         title: 'Chakra UI',
     }, {
         photo: material,
         title: 'Material UI',
-    },
+    }
 ]
 
 export const backEnd = [
