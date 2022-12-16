@@ -13,7 +13,7 @@ const Main = ({ children, router }) => {
                 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
                 <link rel="icon" type="image/icon" href="./MHIcon.png" />
                 <title>Mauricio Hunau | Portfolio</title>
-            </Head>
+            </Head> 
             <NavBar path={router.asPath} />
             <Container maxW='container.md' pt={14}>
                 {children}
