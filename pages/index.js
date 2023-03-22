@@ -63,7 +63,7 @@ const Home = () => {
       </Text>
       <Box mt={4} >
         <Text css={{ textIndent: '30px' }}>
-          I&apos;m a full stack web developer in Argentina with passion for developing web apps and learnging about new technologies. I love solving puzzles and problems with code and to come up with new ideas to craft and create. My goals are to become a experience full stack developer and learning new technologies. When I&apos;m not in the computer I go for a jog, 7km to stay healthy.
+          I&apos;m a full stack web developer in Argentina with passion for developing web apps and learning about new technologies. I love solving puzzles and problems with code and to come up with new ideas to craft and create. My goals are to become a experience full stack developer and learning new technologies. When I&apos;m not in the computer I go for a jog, 7km to stay healthy.
         </Text>
       </Box>
       <Text fontSize='3xl' mt={5} fontFamily="'Inter', sans-serif;" align='center' borderBottom='1px solid grey' width='100%'>
