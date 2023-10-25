@@ -66,7 +66,7 @@ const Home = () => {
       </Text>
       <Box mt={4} >
         <Text css={{ textIndent: '30px' }}>
-          I&apos;m a versatile full stack developer with a relentless drive for growth and innovation. My love for technology fuels my endless quest to learn and adapt to the latest trends and tools. Currently, I'm delving into the exciting world of Three.js, pushing the boundaries of interactive 3D web experiences. My dedication to continually improving my front-end skills is a testament to my commitment to creating user-friendly and visually stunning digital solutions. I find immense satisfaction in exploring new horizons and turning creative ideas into tangible, cutting-edge web applications.
+          I&apos;m a versatile full stack developer with a relentless drive for growth and innovation. My love for technology fuels my endless quest to learn and adapt to the latest trends and tools. Currently, I&apos;m delving into the exciting world of Three.js, pushing the boundaries of interactive 3D web experiences. My dedication to continually improving my front-end skills is a testament to my commitment to creating user-friendly and visually stunning digital solutions. I find immense satisfaction in exploring new horizons and turning creative ideas into tangible, cutting-edge web applications.
         </Text>
       </Box>
       <Text fontSize='3xl' mt={5} fontFamily="'Inter', sans-serif;" align='center' borderBottom='1px solid grey' width='100%'>
