@@ -1,7 +1,7 @@
 import { Box, Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { GridItem } from '../components/technologiesdisplay'
-import { backEnd, frontEnd, languages, otherTools } from '../components/imagesForMap'
+import { backEnd, frontEnd, languages, otherTools } from '../components/constants'
 
 const Technologies = () => {
     return (

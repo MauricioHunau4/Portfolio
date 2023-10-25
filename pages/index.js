@@ -23,7 +23,6 @@ const Home = () => {
           mt={2}
           borderColor='whiteAlpha.800'
           borderWidth={2}
-
           borderStyle='solid'
           maxWidth='100p'
           display='inline-block'
@@ -57,13 +56,17 @@ const Home = () => {
           <p><strong>2019 -</strong></p>
           <p>Studied on my own and doing projects since</p>
         </Box>
+        <Box display='flex' gap={2}>
+          <p><strong>Nov 2022 - present -</strong></p>
+          <p>Working at Sistemas Lenox as a Full stack web developer</p>
+        </Box>
       </Box>
       <Text fontSize='3xl' mt={5} fontFamily="'Inter', sans-serif;" align='center' width='100%' borderBottom='1px solid grey'>
         About
       </Text>
       <Box mt={4} >
         <Text css={{ textIndent: '30px' }}>
-          I&apos;m a full stack web developer in Argentina with passion for developing web apps and learning about new technologies. I love solving puzzles and problems with code and to come up with new ideas to craft and create. My goals are to become a experience full stack developer and learning new technologies. When I&apos;m not in the computer I go for a jog, 7km to stay healthy.
+          I&apos;m a versatile full stack developer with a relentless drive for growth and innovation. My love for technology fuels my endless quest to learn and adapt to the latest trends and tools. Currently, I'm delving into the exciting world of Three.js, pushing the boundaries of interactive 3D web experiences. My dedication to continually improving my front-end skills is a testament to my commitment to creating user-friendly and visually stunning digital solutions. I find immense satisfaction in exploring new horizons and turning creative ideas into tangible, cutting-edge web applications.
         </Text>
       </Box>
       <Text fontSize='3xl' mt={5} fontFamily="'Inter', sans-serif;" align='center' borderBottom='1px solid grey' width='100%'>

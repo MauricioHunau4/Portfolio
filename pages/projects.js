@@ -1,6 +1,6 @@
 import { Box, Heading, SimpleGrid } from '@chakra-ui/react';
 import React from 'react'
-import { oldestProjects, recentProjects } from '../components/imagesForMap';
+import { oldestProjects, recentProjects } from '../components/constants';
 import Section from '../components/section';
 import { GridProjects } from '../components/technologiesdisplay';
 

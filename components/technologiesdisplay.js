@@ -1,4 +1,4 @@
-import { Box, Button, IconButton, LinkBox, LinkOverlay, Text } from "@chakra-ui/react"
+import { Box, Button, IconButton, Img, LinkBox, LinkOverlay, Text, textDecoration, useColorModeValue } from "@chakra-ui/react"
 import { Global } from "@emotion/react"
 import Image from "next/image"
 import Link from "next/link"
@@ -11,8 +11,6 @@ export const GridItem = ({ title, photo }) => (
         <Image src={photo}
             alt={title}
             className='grid-item-thumbnail'
-            loading="lazy"
-            placeholder="blur"
             width={90}
             height={90}
         />
@@ -72,3 +70,33 @@ export const GridProjects = ({ title, photo, comment, link, github }) => (
         <Text mt={2} fontFamily="'Inter', sans-serif;">{comment}</Text>
     </Box>
 )
+
+
+export const WorkExperience = ({ title, icon, company, date, page }) => {
+    const inactiveColor = useColorModeValue('blackAlpha.500', 'whiteAlpha.900',)
+    return (
+        <Box
+            background={inactiveColor}
+            borderRadius='lg'
+            position={"relative"}
+            p={5}
+            boxShadow={'0 0 5px 0 rgba(0, 0, 0, 1)'}
+            color={useColorModeValue('white', 'black',)}
+            textAlign='left'
+            display={{ md: 'flex' }}
+            gap={3}
+        >
+            <Img src={icon} alt="Icon company" width={20} height={20}></Img>
+            <Box display='flex' flexDir='column' alignItems='flex-start' w={'full'} justifyContent='space-between'>
+                <Box>
+                    <Text fontSize={20}>{company}</Text>
+                    <Text >{title}</Text>
+                </Box>
+                <Box display={'flex'} w={'full'} justifyContent={'space-between'} alignItems={'center'}>
+                    <Text fontSize={12} color={useColorModeValue('white', 'gray.500',)}>{date}</Text>
+                    {page !== '' && <Button as='a' href={page} title={'To' + title} background={'transparent'} height={'10px'} _hover={{ textDecor: 'underline' }} target="_blank" fontSize={12}  >Web</Button>}
+                </Box>
+            </Box>
+        </Box>
+    )
+}

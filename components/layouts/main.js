@@ -7,7 +7,7 @@ const Main = ({ children, router }) => {
         <Box as='main' pb={8}>
             <Head>
                 <meta name='viewport' content='width=device-width, initial-scale=1' />
-                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="description" content="Mauricio&apos;s homepage" />
                 <meta name="author" content="Mauricio Hunau" />
                 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
