@@ -99,6 +99,9 @@ const NavBar = props => {
                                 <NextLink href='/projects' passHref>
                                     <MenuItem as={Link} >Projects</MenuItem>
                                 </NextLink>
+                                <NextLink href='/work' passHref>
+                                    <MenuItem as={Link} >Exprience</MenuItem>
+                                </NextLink>
                             </MenuList>
                         </Menu>
                     </Box>

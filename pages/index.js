@@ -4,7 +4,9 @@ import {
   Heading,
   Button,
   Text,
-  Image
+  Image,
+  UnorderedList,
+  ListItem
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import { SlSocialInstagram } from 'react-icons/sl'
@@ -43,24 +45,24 @@ const Home = () => {
       <Text fontSize='3xl' mt={5} fontFamily="'Inter', sans-serif;" align='center' width='100%' borderBottom='1px solid grey'>
         Biography
       </Text>
-      <Box display='flex' flexDirection='column' gap={4} mt={4}>
-        <Box display='flex' gap={2}>
+      <UnorderedList gap={4} mt={4}>
+        <ListItem display='flex' gap={2}>
           <p><strong>1999 -</strong></p>
           <p>Born on october 4th Buenos Aires, Argentina</p>
-        </Box>
-        <Box display='flex' gap={2}>
+        </ListItem>
+        <ListItem display='flex' gap={2}>
           <p><strong>2017 -</strong></p>
           <p>Finished high school</p>
-        </Box>
-        <Box display='flex' gap={2}>
-          <p><strong>2019 -</strong></p>
-          <p>Studied on my own and doing projects since</p>
-        </Box>
-        <Box display='flex' gap={2}>
-          <p><strong>Nov 2022 - present -</strong></p>
+        </ListItem>
+        <ListItem display='flex' gap={2}>
+          <p><strong>2022<br /> - 2024</strong></p>
           <p>Working at Sistemas Lenox as a Full stack web developer</p>
-        </Box>
-      </Box>
+        </ListItem>
+        <ListItem display='flex' gap={2}>
+          <p><strong>2024<br /> - now</strong></p>
+          <p>Working at Multitravel.com as a Full stack web developer</p>
+        </ListItem>
+      </UnorderedList>
       <Text fontSize='3xl' mt={5} fontFamily="'Inter', sans-serif;" align='center' width='100%' borderBottom='1px solid grey'>
         About
       </Text>
@@ -73,10 +75,6 @@ const Home = () => {
         Socials
       </Text>
       <Box display='flex' flexWrap='wrap' gap={3} justifyContent='center' mt={5} >
-        <Button as='a' href='https://www.instagram.com/maurihunau/' target='_blank' gap={3}>
-          <SlSocialInstagram />
-          <p>Instagram</p>
-        </Button>
         <Button as='a' href='https://github.com/MauricioHunau4' target='_blank' gap={3}>
           <AiFillGithub />
           <p>Github</p>

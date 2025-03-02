@@ -22,6 +22,7 @@ import wheather from '../public/images/projects/Capturaweather.png'
 import schoolui from '../public/images/projects/schoolui.jpg'
 import chess from '../public/images/projects/the-chess-rules.png'
 import apod from '../public/images/projects/Apod.jpg'
+import SisLenox from '../public/images/work/sistemas_lenox_logo.jpeg'
 
 export const frontEnd = [
     {
@@ -148,9 +149,9 @@ export const work = [
     {
         id: 1,
         title: 'Full Stack Developer',
-        icon: 'https://yt3.googleusercontent.com/67Q_6sl2aD0mo3Unsv1UnPM3-SuF61ZwSgV9RWPA9GUEX8Fq0ieoP4udHiLr4OjNCHt3lWNr=s900-c-k-c0x00ffffff-no-rj',
+        icon: SisLenox,
         company: 'Sistemas Lenox',
-        date: 'Nov 2022 - Present',
+        date: 'Nov 2022 - Apr 2024',
         page: 'https://www.lenoxhr.com/'
     }, {
         id: 2,
@@ -159,5 +160,12 @@ export const work = [
         company: 'Small business',
         date: '2023',
         page: ''
-    }
+    } , {
+        id: 3,
+        title: 'Full Stack Developer',
+        icon: 'https://cdn.pixabay.com/photo/2017/01/25/17/35/picture-2008484_1280.png',
+        company: 'Multitravel',
+        date: 'Apr 2024 - present',
+        page: ''
+    } 
 ]
