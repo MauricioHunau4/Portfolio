@@ -118,7 +118,6 @@ export const recentProjects = [
         title: 'The Album',
         photo: album,
         comment: 'The album is a collection of photos taken by professionals. You can search a especific collection with an excellent quality',
-        link: 'https://the-albumh-e932e.web.app/',
         github: 'https://github.com/MauricioHunau4/The-album'
     }
 ]
