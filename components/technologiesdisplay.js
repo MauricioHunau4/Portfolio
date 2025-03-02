@@ -74,6 +74,7 @@ export const GridProjects = ({ title, photo, comment, link, github }) => (
 
 export const WorkExperience = ({ title, icon, company, date, page }) => {
     const inactiveColor = useColorModeValue('blackAlpha.500', 'whiteAlpha.900',)
+    console.log(icon)
     return (
         <Box
             background={inactiveColor}

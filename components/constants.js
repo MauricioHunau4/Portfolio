@@ -23,6 +23,7 @@ import schoolui from '../public/images/projects/schoolui.jpg'
 import chess from '../public/images/projects/the-chess-rules.png'
 import apod from '../public/images/projects/Apod.jpg'
 import SisLenox from '../public/images/work/sistemas_lenox_logo.jpeg'
+import Multi from '../public/images/work/Multi.jpeg'
 
 export const frontEnd = [
     {
@@ -149,13 +150,13 @@ export const work = [
     {
         id: 1,
         title: 'Full Stack Developer',
-        icon: SisLenox,
+        icon: SisLenox.src,
         company: 'Sistemas Lenox',
         date: 'Nov 2022 - Apr 2024',
         page: 'https://www.lenoxhr.com/'
     }, {
         id: 2,
-        title: 'Free lancer',
+        title: 'Mobile Developer',
         icon: 'https://cdn.pixabay.com/photo/2017/01/25/17/35/picture-2008484_1280.png',
         company: 'Small business',
         date: '2023',
@@ -163,9 +164,9 @@ export const work = [
     } , {
         id: 3,
         title: 'Full Stack Developer',
-        icon: 'https://cdn.pixabay.com/photo/2017/01/25/17/35/picture-2008484_1280.png',
+        icon: Multi.src,
         company: 'Multitravel',
         date: 'Apr 2024 - present',
-        page: ''
+        page: 'https://www.multitravel.com'
     } 
 ]
